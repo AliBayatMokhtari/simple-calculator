@@ -90,7 +90,6 @@ class CalculatorPage extends Component {
                 const operand1 = stack.pop();
                 switch (element) {
                     case '+': {
-                        console.log(stack);
                         stack.push(operand1 + operand2);
                         break;
                     }
